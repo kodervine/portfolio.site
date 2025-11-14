@@ -37,6 +37,9 @@ import courseraMetaAdvancedReact from "../public/assets/courseraMetaAdvancedReac
 import techSkillsHackFeature from "../public/assets/techskills-hack-feature.png";
 import womenDayFeature from "../public/assets/womenDayFeature.png";
 import freecodecampPublication from "../public/assets/freecodecamp-unstyleduicomponents.png";
+import linuxOwaspSecurityCert from "../public/assets/linuxOwaspSecurityCert.jpeg";
+import ciscoIntroductionToCybersecurity from "../public/assets/ciscoIntroductionToCybersecurity.png";
+import courseraGoogleFoundationsOfCybersecurity from "../public/assets/courseraGoogleFoundationsOfCybersecurity.png";
 
 export interface ListItem {
   text: string;
@@ -123,7 +126,7 @@ export const portfolioData: PortfolioInterface[] = [
     title: "Balanceè",
     description:
       "A platform connects repair stations with customers, providing reliable solutions for automotive needs.",
-    link: "https://www.customer.balancee.app/",
+    link: "https://www.balancee.app/",
     githubIcon: <AiFillGithub />,
     githubLink: "",
     technologiesUsed: ["Flutter", "Dart", "Javascript", "React"],
@@ -231,6 +234,38 @@ export const portfolioData: PortfolioInterface[] = [
 ];
 
 export const certificationsData = [
+  {
+    year: "2025",
+    certifications: [
+      {
+        date: "November, 2025",
+        link: "https://www.coursera.org/account/accomplishments/certificate/YDY4HE4159OC",
+        image: courseraGoogleFoundationsOfCybersecurity,
+        organisation: "Google",
+        title: "Foundations of Cybersecurity",
+        description:
+          "Recognize core skills and knowledge needed to become a cybersecurity analyst. Identify how security attacks impact business operations. Explain security ethics. Identify common tools used by cybersecurity analysts. ",
+      },
+      {
+        date: "August, 2025",
+        link: "https://www.credly.com/earner/earned/badge/20fb1b64-cff0-4334-93d9-8871bda38671",
+        image: linuxOwaspSecurityCert,
+        organisation: "Linux Foundation",
+        title: "SKF100: Understanding the OWASP® Top 10 Security Threats",
+        description:
+          "The recipient understands key concepts and best practices in web application security. They are proficient in identifying/addressing common vulnerabilities. ",
+      },
+      {
+        date: "July, 2025",
+        link: "https://www.credly.com/earner/earned/badge/781d9911-2453-449e-ad2a-996262229170",
+        image: ciscoIntroductionToCybersecurity,
+        organisation: "Cisco Networking Academy",
+        title: "Introduction to Cybersecurity",
+        description:
+          "A recipient of this credential has introductory knowledge of cybersecurity, including the global implications of cyber threats on industries, and why cybersecurity is a growing profession",
+      },
+    ],
+  },
   {
     year: "2024",
     certifications: [
