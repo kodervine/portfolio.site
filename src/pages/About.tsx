@@ -18,49 +18,44 @@ const About = () => {
             MEET CHINENYE
           </Title>
           <Text align="justify">
-            I am a software developer and technical writer who creates stunning
-            and user-friendly web apps that engage and ease user experience on
-            the client side. My interest lies at the intersection of solving
-            problems for customers and ensuring a smooth User Experience.
+            I am a software developer dedicated to building stunning,
+            user-friendly, and highly secure web applications that truly engage
+            users. My interest lies squarely at the intersection of solving
+            complex problems for customers and ensuring a smooth User Experience
+            while prioritizing robust security throughout the development
+            lifecycle.
             <br />
             <br />
-            {/* As a technology lover with an interest in human behavior, my journey
-            to becoming a software developer was a natural fit after years of
-            creating highly converting campaigns, aesthetically appealing
-            emails, and ensuring customer retention for my copywriting clients.
+            My comprehensive understanding of the client side allows me to
+            approach development with a security-first mindset. I actively
+            research potential vulnerabilities, ensuring the code I write
+            adheres to the highest standards of safety and best practices like
+            the OWASP Top 10. My commitment is to deliver elegant solutions that
+            are fundamentally resilient against emerging threats.
             <br />
             <br />
-            So, I decided to combine my interests and skills to become a problem
-            solver who ensures smooth User Experience while creating stunning
-            web apps that engage users. My skill set places me at a unique
-            intersection of left and right brain hemispheres, enabling me to
-            maximize both aspects of her creativity.
+            I maintain a strong, up-to-date technical stack. This includes HTML,
+            CSS, Tailwind, Sass, JavaScript, Typescript, React, React Native,
+            and Dart. I utilize essential tools like Git, GitHub, Netlify, and
+            Firebase in my projects. I am constantly learning new technologies
+            and security standards to stay at the cutting edge of the industry.
+            What sets me apart is my ability to combine deep technical skill
+            with exceptional clarity in communication.
             <br />
-            <br /> */}
-            I am constantly learning new technologies to stay up-to-date with
-            industry standards and trends. My tech stack includes HTML, CSS,
-            Tailwind, Sass, JavaScript, Typescript, React, React Native and
-            Dart, and I utilize software like Git, GitHub, Netlify, and Firebase
-            in my projects.
+            <br />I excel at translating complex engineering and security
+            requirements into clear, concise documentation and working
+            effectively within a team. I am a dedicated problem-solver who
+            ensures work gets done without delay. My{" "}
+            <Link to="/portfolio">portfolio webpage</Link> showcases my skills
+            and projects, and my{" "}
+            <a href="https://github.com/kodervine">GitHub profile</a> highlights
+            my programming activities. I also contribute to the community via my
+            blog on Hashnode where I create detailed articles on technologies I
+            use, security concepts, and frontend debugging techniques. You can{" "}
+            <a href="https://kodervine.hashnode.dev/">read my articles here.</a>{" "}
             <br />
-            <br /> My <Link to="/portfolio">portfolio webpage</Link> showcases
-            my skills and projects, and my{" "}
-            <a href="https://github.com/kodervine">GitHub profile </a>{" "}
-            highlights my programming activities. Also, I have a blog on
-            hashnode where I create articles on technologies I have used and my
-            debugging in frontend development. You can{" "}
-            <a href="https://kodervine.hashnode.dev/">read my articles here.</a>
-            <br />
-            <br />
-            What sets me apart is my ability to communicate effectively and
-            contribute to a team environment, getting work done without flimsy
-            excuses. When I'm not improving my skills or browsing the latest
-            industry trends, you'll find my surfing YouTube for different MBTI
-            personalities' behaviors, lingering on Reddit, or chatting
-            one-on-one with Google Assistant.
-            <br />
-            <br />I am open to collaboration on software projects and also
-            technical writing opportunities.
+            <br />I am open to challenging opportunities in software engineering
+            and security that emphasize secure code development.{" "}
           </Text>
           <HireMe />
         </Grid.Col>
