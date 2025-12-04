@@ -40,6 +40,9 @@ import freecodecampPublication from "../public/assets/freecodecamp-unstyleduicom
 import linuxOwaspSecurityCert from "../public/assets/linuxOwaspSecurityCert.jpeg";
 import ciscoIntroductionToCybersecurity from "../public/assets/ciscoIntroductionToCybersecurity.png";
 import courseraGoogleFoundationsOfCybersecurity from "../public/assets/courseraGoogleFoundationsOfCybersecurity.png";
+import courseraGooglePlayItSafe from "../public/assets/courseraGooglePlayItSafe.png";
+import courseraGoogleConnectAndProtect from "../public/assets/courseraGoogleConnectAndProtect.jpeg";
+import elevateMicrosoftAIFundamentals from "../public/assets/elevateMicrosoftAIFundamentals.png";
 
 export interface ListItem {
   text: string;
@@ -49,7 +52,7 @@ export interface ListItem {
 export const profileListItems: ListItem[] = [
   { text: "About", link: "/about" },
   { text: "Portfolio", link: "/portfolio" },
-  { text: "Certifications", link: "/certifications" },
+  { text: "Courses & Certifications", link: "/certifications" },
   {
     text: "CV",
     link: "https://drive.google.com/drive/folders/1mtB7QT5DY_l9n7blL6txMKN9G5mg4Iw_",
@@ -237,6 +240,33 @@ export const certificationsData = [
   {
     year: "2025",
     certifications: [
+      {
+        date: "December, 2025",
+        link: "",
+        image: elevateMicrosoftAIFundamentals,
+        organisation: "Elevate ICAIRE",
+        title: "Elevate Microsoft Azure AI Fundamentals",
+        description:
+          "Preparing candidates for the Microsoft Azure AI Fundamentals certification. ",
+      },
+      {
+        date: "November, 2025",
+        link: "https://www.coursera.org/account/accomplishments/verify/DTVVQXNV8R2X",
+        image: courseraGoogleConnectAndProtect,
+        organisation: "Google",
+        title: "Connect and Protect: Networks and Network Security",
+        description:
+          "Recognize core skills and knowledge needed to become a cybersecurity analyst. Identify how security attacks impact business operations. Explain security ethics. Identify common tools used by cybersecurity analysts. ",
+      },
+      {
+        date: "November, 2025",
+        link: "https://www.coursera.org/account/accomplishments/verify/Y1YP1CLOE7E0",
+        image: courseraGooglePlayItSafe,
+        organisation: "Google",
+        title: "Play It Safe: Manage Security Risks",
+        description:
+          "Recognize core skills and knowledge needed to become a cybersecurity analyst. Identify how security attacks impact business operations. Explain security ethics. Identify common tools used by cybersecurity analysts. ",
+      },
       {
         date: "November, 2025",
         link: "https://www.coursera.org/account/accomplishments/certificate/YDY4HE4159OC",

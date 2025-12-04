@@ -65,7 +65,7 @@ const Certifications = () => {
     <main style={{ padding: "0px 20px" }}>
       <Navbar title="CHINENYE ANIKWENZE" />
       <Title order={4} style={{ paddingBottom: " 10px" }} mt="md">
-        Certifications
+        Courses & Certifications
       </Title>
       <Accordion
         chevron={<AiFillCaretDown size={16} />}
