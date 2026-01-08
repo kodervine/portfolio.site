@@ -37,12 +37,18 @@ import courseraMetaAdvancedReact from "../public/assets/courseraMetaAdvancedReac
 import techSkillsHackFeature from "../public/assets/techskills-hack-feature.png";
 import womenDayFeature from "../public/assets/womenDayFeature.png";
 import freecodecampPublication from "../public/assets/freecodecamp-unstyleduicomponents.png";
+import theCableXAIUndressingPublication from "../public/assets/theCableXAIUndressing.png";
+import theRepublicLongWalkToEqualityPublication from "../public/assets/theRepublicLongWalkToEquality.png";
 import linuxOwaspSecurityCert from "../public/assets/linuxOwaspSecurityCert.jpeg";
 import ciscoIntroductionToCybersecurity from "../public/assets/ciscoIntroductionToCybersecurity.png";
 import courseraGoogleFoundationsOfCybersecurity from "../public/assets/courseraGoogleFoundationsOfCybersecurity.png";
 import courseraGooglePlayItSafe from "../public/assets/courseraGooglePlayItSafe.png";
 import courseraGoogleConnectAndProtect from "../public/assets/courseraGoogleConnectAndProtect.jpeg";
 import elevateMicrosoftAIFundamentals from "../public/assets/elevateMicrosoftAIFundamentals.png";
+import courseraGoogleToolsOfTheTrade from "../public/assets/courseraGoogleToolsOfTheTrade.png";
+import courseraGoogleSoundTheAlarm from "../public/assets/courseraGoogleSoundTheAlarm.png";
+import microsoftAzureAIFundamentals from "../public/assets/microsoftAzureAIFundamentals.png";
+import courseraGoogleAutomateTasksWithPython from "../public/assets/courseraGoogleAutomateTasksWithPython.jpeg";
 
 export interface ListItem {
   text: string;
@@ -238,8 +244,49 @@ export const portfolioData: PortfolioInterface[] = [
 
 export const certificationsData = [
   {
+    year: "2026",
+    certifications: [
+      {
+        date: "January, 2026",
+        link: "https://learn.microsoft.com/en-us/users/chinenyeanikwenze/credentials/1c6818e1c02f3a86",
+        image: microsoftAzureAIFundamentals,
+        organisation: "Microsoft",
+        title: "Microsoft Certified: Azure AI Fundamentals",
+        description:
+          "Describe Artificial Intelligence workloads and considerations, fundamental principles of machine learning on Azure, features of computer vision workloads on Azure, Natural Language Processing (NLP) workloads on Azure and generative AI workloads on Azure",
+      },
+      {
+        date: "January, 2026",
+        link: "https://www.coursera.org/account/accomplishments/verify/I0K65GGBAA1S",
+        image: courseraGoogleAutomateTasksWithPython,
+        organisation: "Google",
+        title: "Automate Cybersecurity Tasks with Python",
+        description:
+          "Explain how the Python programming language is used in cybersecurity. Create new, user-defined Python functions. Use regular expressions to extract information from text. Practice debugging code",
+      },
+      {
+        date: "January, 2026",
+        link: "https://www.coursera.org/account/accomplishments/verify/8YNQD1TKYZVT",
+        image: courseraGoogleSoundTheAlarm,
+        organisation: "Google",
+        title: "Sound the Alarm: Detection and Response",
+        description:
+          "Identify the steps to contain, eradicate, and recover from an incident. Analyze packets to interpret network communications. Understand basic syntax, components of signatures and logs in Intrusion Detection Systems (IDS) and Network Intrusion Detection Systems (NIDS) tools. Perform queries in Security Information and Event Management (SIEM) tools to investigate an event ",
+      },
+    ],
+  },
+  {
     year: "2025",
     certifications: [
+      {
+        date: "December, 2025",
+        link: "https://www.coursera.org/account/accomplishments/verify/DEMMV5NGBNDN",
+        image: courseraGoogleToolsOfTheTrade,
+        organisation: "Google",
+        title: "Tools of the Trade: Linux and SQL",
+        description:
+          "Recognize core skills and knowledge needed to become a cybersecurity analyst. Identify how security attacks impact business operations. Explain security ethics. Identify common tools used by cybersecurity analysts. ",
+      },
       {
         date: "December, 2025",
         link: "",
@@ -249,6 +296,7 @@ export const certificationsData = [
         description:
           "Preparing candidates for the Microsoft Azure AI Fundamentals certification. ",
       },
+
       {
         date: "November, 2025",
         link: "https://www.coursera.org/account/accomplishments/verify/DTVVQXNV8R2X",
@@ -377,11 +425,27 @@ export const featureData = [
 
 export const publicationsData = [
   {
-    dateAdded: "27th August, 2023",
+    dateAdded: "2nd January 2026",
+    link: "https://www.thecable.ng/xs-ai-is-undressing-women-in-public-and-the-guardrails-are-non-existent/",
+    title:
+      "X’s AI is Undressing Women in Public and the Guardrails are Non-Existent",
+    organisation: "TheCable Ng",
+    coverImg: theCableXAIUndressingPublication,
+  },
+  {
+    dateAdded: "27th August 2023",
     link: "https://www.freecodecamp.org/news/unstyled-ui-components-for-front-end-developers/",
     title:
       "How to Use Un-Styled UI Components – Guide for Front-End Developers",
     organisation: "Freecodecamp",
     coverImg: freecodecampPublication,
+  },
+  {
+    dateAdded: "20th January 2021",
+    link: "https://rpublc.com/december-20-january-21/the-long-walk-to-equality/",
+    title:
+      "Historical Influences on Women in Igbo Society - The Long Walk to Equality",
+    organisation: "The Republic",
+    coverImg: theRepublicLongWalkToEqualityPublication,
   },
 ];
