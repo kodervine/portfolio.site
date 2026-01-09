@@ -18,44 +18,40 @@ const About = () => {
             MEET CHINENYE
           </Title>
           <Text align="justify">
-            I am a software developer dedicated to building stunning,
-            user-friendly, and highly secure web applications that truly engage
-            users. My interest lies squarely at the intersection of solving
-            complex problems for customers and ensuring a smooth User Experience
-            while prioritizing robust security throughout the development
-            lifecycle.
+            I am a software engineer and AI automation specialist. I build apps
+            that look great, work well, and stay safe. I love finding the spot
+            where hard problems meet great design. I make sure users have a
+            smooth experience while I keep their data locked down.
             <br />
             <br />
-            My comprehensive understanding of the client side allows me to
-            approach development with a security-first mindset. I actively
-            research potential vulnerabilities, ensuring the code I write
-            adheres to the highest standards of safety and best practices like
-            the OWASP Top 10. My commitment is to deliver elegant solutions that
-            are fundamentally resilient against emerging threats.
+            I focus on building autonomous systems and secure code. I create AI
+            agents that work 24/7 to solve problems. These agents can watch
+            security feeds, find threats, and even create marketing content.
+            Security is not an afterthought for me, it is the foundation. I
+            follow strict rules like the OWASP Top 10 to keep everything safe. I
+            study new risks to make sure my solutions stay strong.
             <br />
             <br />
-            I maintain a strong, up-to-date technical stack. This includes HTML,
-            CSS, Tailwind, Sass, JavaScript, Typescript, React, React Native,
-            and Dart. I utilize essential tools like Git, GitHub, Netlify, and
-            Firebase in my projects. I am constantly learning new technologies
-            and security standards to stay at the cutting edge of the industry.
-            What sets me apart is my ability to combine deep technical skill
-            with exceptional clarity in communication.
+            My technical toolkit is broad. For the web, I work with Tailwind,
+            React Native, React, TypeScript, and n8n. I also build
+            high-performance mobile apps using Flutter and Dart. I am very
+            comfortable with self-hosting my own systems on a VPS, which gives
+            me full control over privacy and performance. I use tools like Git,
+            Firebase, and Netlify to keep my projects organized. I am always
+            looking for new ways to use AI to save time and move faster.
             <br />
-            <br />I excel at translating complex engineering and security
-            requirements into clear, concise documentation and working
-            effectively within a team. I am a dedicated problem-solver who
-            ensures work gets done without delay. My{" "}
-            <Link to="/portfolio">portfolio webpage</Link> showcases my skills
-            and projects, and my{" "}
-            <a href="https://github.com/kodervine">GitHub profile</a> highlights
-            my programming activities. I also contribute to the community via my
-            blog on Hashnode where I create detailed articles on technologies I
-            use, security concepts, and frontend debugging techniques. You can{" "}
-            <a href="https://kodervine.hashnode.dev/">read my articles here.</a>{" "}
+            <br />I am good at making hard ideas feel simple. I can turn complex
+            security rules into clear guides for a team. I also share what I
+            know with others. I write about frontend bugs and security concepts
+            on my blog. You can see my work in my{" "}
+            <Link to="/portfolio">portfolio webpage</Link> or check out my code
+            on <a href="https://github.com/kodervine">GitHub</a>. I also
+            contribute to the community on Hashnode. You can{" "}
+            <a href="https://kodervine.hashnode.dev/">read my articles here.</a>
             <br />
-            <br />I am open to challenging opportunities in software engineering
-            and security that emphasize secure code development.{" "}
+            <br />I am ready for new challenges in software engineering and AI.
+            I want to work on projects that value smart automation and secure
+            development.
           </Text>
           <HireMe />
         </Grid.Col>

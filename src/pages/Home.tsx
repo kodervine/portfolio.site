@@ -1,38 +1,45 @@
 import profileImg from "../../public/assets/profile-pic.jpg";
 import Footer from "../components/Footer";
-import { Badge, Grid, Image, Text, Title } from "@mantine/core";
+import { Box, Grid, Image, Text, Title } from "@mantine/core";
 import HireMe from "../components/HireMe";
 import Navbar from "../components/Navbar";
+import SkillGroup from "../components/SkillGroup";
 
 interface Props {
   techStack: string[];
   techTools: string[];
 }
 
-const techStack = [
-  "react",
-  "react native",
-  "javascript",
-  "typescript",
-  "react query",
-  "dart",
-  "flutter",
-  "scss",
-  "tailwind",
-  "bootstrap",
-  "css",
-  "html",
-  "redux",
-  "redux toolkit query",
+const automationSkills = [
+  "n8n",
+  "Agentic AI",
+  "Workflow Automation",
+  "Custom JS Nodes",
 ];
 
-const techTools = [
-  "git",
-  "github",
-  "chakra ui",
-  "mantine ui",
-  "netlify",
-  "firebase",
+const developmentStack = [
+  "React",
+  "TypeScript",
+  "Flutter",
+  "Python",
+  "Dart",
+  "React Native",
+  "Javascript",
+  "React Query",
+  "Tailwind",
+  "SCSS",
+  "Redux Toolkit",
+];
+
+const infrastructureTools = [
+  "VPS Hosting",
+  "Docker",
+  "Linux / Ubuntu",
+  "Firebase",
+  "Git / GitHub",
+  "Netlify",
+  "Mantine UI",
+  "Vercel",
 ];
 
 const Home = () => {
@@ -47,49 +54,42 @@ const Home = () => {
       >
         <Grid.Col md={6} lg={5} order={2} orderSm={2} orderLg={1}>
           <main>
-            <Title order={1} weight={900} my="sm">
+            <Title order={1} weight={900} my="xs">
               CHINENYE ANIKWENZE
             </Title>
-            <Text align="justify">
-              I am a resourceful Software Developer and technical writer. I love
-              creating visually stunning and user-friendly websites that engage
-              and ease users' experience.
-            </Text>
-            <Title order={6} my="sm">
-              Technologies:{" "}
-            </Title>
-            {techStack.map((stack, index) => {
-              return (
-                <Badge
-                  color="pink"
-                  size="sm"
-                  variant="dot"
-                  mr="10px"
-                  key={index}
-                >
-                  {stack}
-                </Badge>
-              );
-            })}
 
-            <Title order={6} my="sm">
-              Tools:
+            <Text align="justify" mb="xl">
+              I am a Software Engineer and AI Automation Specialist. I build
+              tools that work hard so you don't have to. I focus on creating
+              apps that are beautiful, fast, and very secure. I love using AI to
+              turn manual work into autonomous workflows.
+            </Text>
+
+            <Title order={4} mb="md">
+              Expertise:
             </Title>
-            {techTools.map((tool, index) => {
-              return (
-                <Badge
-                  color="lime"
-                  size="sm"
-                  radius="sm"
-                  variant="dot"
-                  mr="10px"
-                  key={index}
-                >
-                  {tool}
-                </Badge>
-              );
-            })}
-            <HireMe />
+
+            <SkillGroup
+              title="AI & Automation"
+              items={automationSkills}
+              color="orange"
+            />
+
+            <SkillGroup
+              title="Web & Mobile Development"
+              items={developmentStack}
+              color="blue"
+            />
+
+            <SkillGroup
+              title="Infrastructure & Tools"
+              items={infrastructureTools}
+              color="teal"
+            />
+
+            <Box mt="xl">
+              <HireMe />
+            </Box>
 
             <Footer />
           </main>
@@ -101,5 +101,6 @@ const Home = () => {
     </>
   );
 };
+
 
 export default Home;

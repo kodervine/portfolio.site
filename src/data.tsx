@@ -29,6 +29,12 @@ import homnicsDesktop from "../public/assets/homnics-desktop.png";
 import homnicsMobile from "../public/assets/homnics-mobile.png";
 import balanceeDesktop from "../public/assets/balancee-desktop.png";
 import balanceeMobile from "../public/assets/balancee-mobile.png";
+import threatAlertUI from "../public/assets/cyber-news-email-message.jpeg";
+import threatEngineWorkflow from "../public/assets/cyber-news-workflow.png";
+import adFactoryWorkflow from "../public/assets/adFactoryWorkflow.png";
+import adFactorySlackMessage from "../public/assets/adFactorySlackMessage.png";
+import clinicWorkflow from "../public/assets/medical_assistant_workflow_screen.png";
+import clinicChatUI from "../public/assets/medical_assistant_chatbot_screen.png";
 import udemyJavascriptCert from "../public/assets/udemy-javascript-course.jpg";
 import udemyFlutterCert from "../public/assets/udemy-flutter-certificate.jpg";
 import courseraMetaReactBasics from "../public/assets/coursera-introduction-to-frontend.jpeg";
@@ -58,7 +64,6 @@ export interface ListItem {
 export const profileListItems: ListItem[] = [
   { text: "About", link: "/about" },
   { text: "Portfolio", link: "/portfolio" },
-  { text: "Courses & Certifications", link: "/certifications" },
   {
     text: "CV",
     link: "https://drive.google.com/drive/folders/1mtB7QT5DY_l9n7blL6txMKN9G5mg4Iw_",
@@ -66,6 +71,7 @@ export const profileListItems: ListItem[] = [
   { text: "Blog", link: "/blog" },
   { text: "Features", link: "/features" },
   { text: "Publications", link: "/publications" },
+  { text: "Courses & Certifications", link: "/certifications" },
 ];
 
 export interface IconItem {
@@ -119,7 +125,56 @@ export interface PortfolioInterface {
   image2?: string;
 }
 
-export const portfolioData: PortfolioInterface[] = [
+export const aiPortfolioData: PortfolioInterface[] = [
+  {
+    title: "Plastic Clinic Bot",
+    description:
+      "A private AI agent that automates lead qualification and booking. Features a hybrid architecture with OpenAI GPT 4.1 mini for speed and local Ollama for privacy, with hard-coded safety guardrails to prevent diagnostic advice.",
+    link: "https://www.upwork.com/freelancers/~01d1e70c32227bcae2?p=2009713691929931776",
+    githubIcon: <AiFillGithub />,
+    githubLink: "",
+    technologiesUsed: ["n8n", "Open AI", "Docker", "Google Calendar API"],
+    image1: clinicWorkflow,
+    image2: clinicChatUI,
+  },
+  {
+    title: "AI-Powered Cybersecurity Threat Intelligence Engine",
+    description:
+      "An automated system that solves the problem of alert fatigue by filtering noise from 10+ global sources. It uses Gemini AI to score threat severity and delivers prioritized mitigation steps to Slack and email.",
+    link: "https://www.upwork.com/freelancers/~01d1e70c32227bcae2?p=2008905800754622464",
+    githubIcon: <AiFillGithub />,
+    githubLink: "",
+    technologiesUsed: [
+      "n8n",
+      "RSS",
+      "Gemini AI",
+      "Slack API",
+      "Email Automation",
+    ],
+    image1: threatEngineWorkflow,
+    image2: threatAlertUI,
+  },
+  {
+    title: "Autonomous AI Security Analyst & Ad Factory",
+    description:
+      "A 24/7 autonomous agent that turns real-time threat intelligence into marketing assets. It features a self-healing loop and custom JavaScript validation to ensure all content meets strict quality and compliance standards.",
+    link: "https://www.upwork.com/freelancers/~01d1e70c32227bcae2?p=2008887215598854144",
+    githubIcon: <AiFillGithub />,
+    githubLink: "",
+    technologiesUsed: [
+      "n8n",
+      "RSS",
+      "JavaScript",
+      "Agentic AI",
+      "Content Automation",
+      "Slack API",
+    ],
+    image1: adFactoryWorkflow,
+    image2: adFactorySlackMessage,
+  },
+];
+
+export const softwarePortfolioData: PortfolioInterface[] = [
   {
     title: "Homnics",
     description:
