@@ -35,6 +35,10 @@ import adFactoryWorkflow from "../public/assets/adFactoryWorkflow.png";
 import adFactorySlackMessage from "../public/assets/adFactorySlackMessage.png";
 import clinicWorkflow from "../public/assets/medical_assistant_workflow_screen.png";
 import clinicChatUI from "../public/assets/medical_assistant_chatbot_screen.png";
+import evidenceVaultWorkflow from "../public/assets/evidenceVaultWorkflow.png";
+import auditDashboardUI from "../public/assets/auditDashboardUI.png";
+import paymentRecoveryWorkflow from "../public/assets/paymentRecoveryWorkflow.png";
+import businessReportingWorkflow from "../public/assets/businessReportingWorkflow.png";
 import udemyJavascriptCert from "../public/assets/udemy-javascript-course.jpg";
 import udemyFlutterCert from "../public/assets/udemy-flutter-certificate.jpg";
 import courseraMetaReactBasics from "../public/assets/coursera-introduction-to-frontend.jpeg";
@@ -127,13 +131,47 @@ export interface PortfolioInterface {
 
 export const aiPortfolioData: PortfolioInterface[] = [
   {
-    title: "Plastic Clinic Bot",
+    title: "Compliance Evidence Vault",
     description:
-      "A private AI agent that automates lead qualification and booking. Features a hybrid architecture with OpenAI GPT 4.1 mini for speed and local Ollama for privacy, with hard-coded safety guardrails to prevent diagnostic advice.",
+      "A secure, self-hosted audit pipeline that eliminates 60 hours of manual labor monthly. It automates the extraction, parsing, and filing of audit evidence while ensuring 100% data sovereignty on a private VPS.",
+    link: "",
+    githubIcon: <AiFillGithub />,
+    githubLink: "https://github.com/kodervine/n8n_workflows",
+    technologiesUsed: ["n8n", "Docker", "JavaScript", "Linux CLI", "Gmail API"],
+    image1: evidenceVaultWorkflow,
+    image2: auditDashboardUI,
+  },
+  {
+    title: "Automated Revenue Operations (RevOps) Engine",
+    description:
+      "A dual-purpose financial automation system that handles real-time payment recovery and monthly performance auditing. It instantly triggers 'rescue' sequences for failed transactions to save sales, while simultaneously aggregating monthly data into high-level stakeholder reports to replace manual data entry.",
+    link: "",
+    githubIcon: <AiFillGithub />,
+    githubLink: "https://github.com/kodervine/n8n_workflows",
+    technologiesUsed: [
+      "n8n",
+      "Webhooks",
+      "Google Sheets API",
+      "Email/Gmail API",
+      "Financial Data Logic",
+    ],
+    image1: paymentRecoveryWorkflow,
+    image2: businessReportingWorkflow,
+  },
+  {
+    title: "Privacy-First Medical Lead Agent",
+    description:
+      "A hybrid AI agent for clinical lead qualification. It utilizes a dual-model architecture for speed and local VPS for sensitive data privacy—with hard-coded safety guardrails to prevent unauthorized medical diagnostic advice.",
     link: "https://www.upwork.com/freelancers/~01d1e70c32227bcae2?p=2009713691929931776",
     githubIcon: <AiFillGithub />,
-    githubLink: "",
-    technologiesUsed: ["n8n", "Open AI", "Docker", "Google Calendar API"],
+    githubLink: "https://github.com/kodervine/n8n_workflows",
+    technologiesUsed: [
+      "n8n",
+      "OpenAI GPT-4o mini",
+      "VPS",
+      "Docker",
+      "Google Calendar API",
+    ],
     image1: clinicWorkflow,
     image2: clinicChatUI,
   },
