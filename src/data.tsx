@@ -48,6 +48,7 @@ import techSkillsHackFeature from "../public/assets/techskills-hack-feature.png"
 import womenDayFeature from "../public/assets/womenDayFeature.png";
 import freecodecampPublication from "../public/assets/freecodecamp-unstyleduicomponents.png";
 import theCableXAIUndressingPublication from "../public/assets/theCableXAIUndressing.png";
+import cioWhatOpenAIHealthMeansForAfrica from "../public/assets/cioWhatOpenAIHealthMeansForAfrica.jpeg";
 import theRepublicLongWalkToEqualityPublication from "../public/assets/theRepublicLongWalkToEquality.png";
 import linuxOwaspSecurityCert from "../public/assets/linuxOwaspSecurityCert.jpeg";
 import ciscoIntroductionToCybersecurity from "../public/assets/ciscoIntroductionToCybersecurity.png";
@@ -517,6 +518,14 @@ export const featureData = [
 ];
 
 export const publicationsData = [
+  {
+    dateAdded: "23rd January 2026",
+    link: "https://cioafrica.co/what-openais-health-push-and-googles-ai-rollouts-really-mean-for-africa/",
+    title:
+      "What OpenAI’s Health Push And Google’s AI Rollouts Really Mean For Africa",
+    organisation: "CIO Africa",
+    coverImg: cioWhatOpenAIHealthMeansForAfrica,
+  },
   {
     dateAdded: "2nd January 2026",
     link: "https://www.thecable.ng/xs-ai-is-undressing-women-in-public-and-the-guardrails-are-non-existent/",
