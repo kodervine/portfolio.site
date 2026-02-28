@@ -60,6 +60,10 @@ import courseraGoogleToolsOfTheTrade from "../public/assets/courseraGoogleToolsO
 import courseraGoogleSoundTheAlarm from "../public/assets/courseraGoogleSoundTheAlarm.png";
 import microsoftAzureAIFundamentals from "../public/assets/microsoftAzureAIFundamentals.png";
 import courseraGoogleAutomateTasksWithPython from "../public/assets/courseraGoogleAutomateTasksWithPython.jpeg";
+import iscCertifiedInCybersecurity from "../public/assets/iscCertifiedInCybersecurity.png";
+import aflcPresentation2026 from "../public/assets/aflcPresentation2026.png";
+import technextTriviaFeature from "../public/assets/technextTriviaFeature.png";
+import acmURiseFeature from "../public/assets/acmUriseFeature.png";
 
 export interface ListItem {
   text: string;
@@ -341,6 +345,15 @@ export const certificationsData = [
     year: "2026",
     certifications: [
       {
+        date: "February, 2026",
+        link: "https://www.credly.com/badges/d3cf56a5-1189-4d33-bc0f-3316c710234b/linked_in_profile",
+        image: iscCertifiedInCybersecurity,
+        organisation: "ISC2",
+        title: "Certified in Cybersecurity",
+        description:
+          "Understand fundamental security principles and operations, network security and access controls and that they have the skills to meet and exceed performance standards.",
+      },
+      {
         date: "January, 2026",
         link: "https://learn.microsoft.com/en-us/users/chinenyeanikwenze/credentials/1c6818e1c02f3a86",
         image: microsoftAzureAIFundamentals,
@@ -501,6 +514,29 @@ export const certificationsData = [
 ];
 
 export const featureData = [
+  {
+    dateAdded: "28 February 2026",
+    link: "https://women.acm.org/u-rise-chinenye-anikwenze-from-an-academic-in-history-to-an-unconventional-advocate-for-responsible-and-inclusive-ai/",
+    title:
+      "U-RISE – Chinenye Anikwenze: From an Academic in History to an Unconventional Advocate for Responsible and Inclusive AI",
+    organisation: "Association of Computing Machinery (ACM-W)",
+    coverImg: acmURiseFeature,
+  },
+  {
+    dateAdded: "27 February 2026",
+    link: "https://africanlanguagesconf.org/aflc-2026-online-program/#feb27:~:text=Why%20Linguists%20are%20the%20Essential%20Guardrails%20for%20African%20AI",
+    title: "Why Linguists are the Essential Guardrails for African AI",
+    organisation: "African Languages Conference",
+    coverImg: aflcPresentation2026,
+  },
+  {
+    dateAdded: "2 February 2026",
+    link: "https://technext24.com/2026/02/02/tech-trivia-with-chineye-anikwenze/",
+    title:
+      "Tech Trivia with Chinenye Anikwenze, software engineer and automation specialist",
+    organisation: "TechNext",
+    coverImg: technextTriviaFeature,
+  },
   {
     dateAdded: "8 March 2023",
     link: "https://kodervine.hashnode.dev/from-history-academia-to-programming-my-180-journey-to-software-development",
