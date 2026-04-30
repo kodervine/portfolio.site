@@ -39,6 +39,14 @@ import evidenceVaultWorkflow from "../public/assets/evidenceVaultWorkflow.png";
 import auditDashboardUI from "../public/assets/auditDashboardUI.png";
 import paymentRecoveryWorkflow from "../public/assets/paymentRecoveryWorkflow.png";
 import businessReportingWorkflow from "../public/assets/businessReportingWorkflow.png";
+import iReachIntegrationMake from "../public/assets/iReachIntegrationMake.png";
+import iReachDonationAuditLog from "../public/assets/iReachDonationAuditLog.png";
+import commodiTradeGmailTrigger from "../public/assets/commodiTradeGmailTrigger.png";
+import commoditradeLlamaparseExtraction from "../public/assets/commoditradeLlamaparseExtraction.png";
+import bwaPortalPagesWorkflow from "../public/assets/bwaPortalPagesWorkflow.png";
+import bwaStaffDashboard from "../public/assets/bwaStaffDashboard.png";
+import ifyaN8NWorkflow from "../public/assets/ifyaN8NWorkflow.png";
+import ifyaProxyDemo from "../public/assets/ifyaProxyDemo.gif";
 import udemyJavascriptCert from "../public/assets/udemy-javascript-course.jpg";
 import udemyFlutterCert from "../public/assets/udemy-flutter-certificate.jpg";
 import courseraMetaReactBasics from "../public/assets/coursera-introduction-to-frontend.jpeg";
@@ -135,6 +143,83 @@ export interface PortfolioInterface {
 }
 
 export const aiPortfolioData: PortfolioInterface[] = [
+  {
+    title: "Ifya Privacy Proxy (Chrome Extension)",
+    description:
+      "A browser extension that acts as a secure firewall between users and LLMs like ChatGPT and Gemini. It intercepts user input in real-time, routes it through an n8n backend pipeline to detect and scrub Personally Identifiable Information (PII), and seamlessly injects the sanitized text back into the chat to prevent accidental data leaks.",
+    link: "",
+    githubIcon: <AiFillGithub />,
+    githubLink: "https://github.com/kodervine/ifya",
+    technologiesUsed: [
+      "JavaScript",
+      "Chrome Extension API (Manifest V3)",
+      "n8n",
+      "Docker",
+      "Presidio-API",
+      "DOM Manipulation",
+      "Data Privacy (PII)",
+      "Webhook Integrations",
+    ],
+    image1: ifyaProxyDemo, // Make sure to import an image/gif of the extension working
+    image2: ifyaN8NWorkflow,
+  },
+  {
+    title: "Unified Stripe Integration for Non-Profit Donors",
+    description:
+      "A robust automation workflow built on Make.com that synchronizes donation data during a CRM migration. It captures payments from Stripe, checks DonorPerfect via API to prevent duplicate profiles, logs gifts, and maintains a real-time Google Sheets audit trail.",
+    link: "https://drive.google.com/file/d/1SaSQt2e46xSePKXvvuAfgd9WIHcnP6I-/view?usp=sharing",
+    githubIcon: <AiFillGithub />,
+    githubLink: "",
+    technologiesUsed: [
+      "Make.com",
+      "Stripe API",
+      "Virtuous CRM",
+      "DonorPerfect API",
+      "Webhooks",
+      "Google Sheets",
+    ],
+    image1: iReachIntegrationMake, // E.g., A screenshot of the Make.com scenario showing the routing logic
+    image2: iReachDonationAuditLog, // E.g., A blurred/anonymized screenshot of the Google Sheets audit trail
+  },
+  {
+    title: "Automated Price Intelligence System",
+    description:
+      "A fully automated end-to-end price intelligence system. It monitors inboxes for supplier offers in various formats, parses documents via LlamaParse, extracts standard pricing with Gemini AI, and benchmarks them against live USDA market data—eliminating hours of daily manual data entry.",
+    link: "https://drive.google.com/file/d/1Fy4P4jujEJJ0R-_o5DVm1AiPHhf8jBhA/view?usp=sharing", // Add a link if you have a live demo, case study page, or Upwork portfolio link
+    githubIcon: <AiFillGithub />, // You might want to remove this if the n8n workflow isn't on GitHub
+    githubLink: "",
+    technologiesUsed: [
+      "n8n",
+      "Google Gemini AI",
+      "LlamaParse",
+      "USDA AMS API",
+      "Google Sheets",
+      "Data Automation",
+    ],
+    image1: commodiTradeGmailTrigger,
+    image2: commoditradeLlamaparseExtraction,
+  },
+  {
+    title: "Suitedash Financial Portal",
+    description:
+      "A unified, luxury client financial portal built on SuiteDash. It serves as a dual-sided command center, offering clients a sleek interface to track financial progress in real-time while automating backend secure document vaults, invoicing, and task workflows for staff.",
+    link: "https://docs.google.com/document/d/1SoA1dCM0qCRXSi_FF31h733tN8FbKIaeD5kqRSgUheA/edit?usp=drive_link",
+    githubIcon: <AiFillGithub />,
+    githubLink: "",
+    technologiesUsed: [
+      "SuiteDash",
+      "CRM Automation",
+      "User Experience Design",
+      "Branding & UI Customization",
+      "Client Portal Architecture",
+      "Role-Based Access Control",
+      "Automated Invoicing",
+      "Workflow Automation",
+    ],
+    image1: bwaStaffDashboard,
+    image2: bwaPortalPagesWorkflow,
+  },
+
   {
     title: "Compliance Evidence Vault",
     description:
