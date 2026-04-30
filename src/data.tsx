@@ -41,7 +41,7 @@ import paymentRecoveryWorkflow from "../public/assets/paymentRecoveryWorkflow.pn
 import businessReportingWorkflow from "../public/assets/businessReportingWorkflow.png";
 import iReachIntegrationMake from "../public/assets/iReachIntegrationMake.png";
 import iReachDonationAuditLog from "../public/assets/iReachDonationAuditLog.png";
-import commodiTradeGmailTrigger from "../public/assets/commodiTradeGmailTrigger.png";
+import commoditradeGmailTrigger from "../public/assets/commoditradeGmailTrigger.png";
 import commoditradeLlamaparseExtraction from "../public/assets/commoditradeLlamaparseExtraction.png";
 import bwaPortalPagesWorkflow from "../public/assets/bwaPortalPagesWorkflow.png";
 import bwaStaffDashboard from "../public/assets/bwaStaffDashboard.png";
@@ -196,7 +196,7 @@ export const aiPortfolioData: PortfolioInterface[] = [
       "Google Sheets",
       "Data Automation",
     ],
-    image1: commodiTradeGmailTrigger,
+    image1: commoditradeGmailTrigger,
     image2: commoditradeLlamaparseExtraction,
   },
   {
