@@ -69,6 +69,7 @@ import courseraGoogleSoundTheAlarm from "../public/assets/courseraGoogleSoundThe
 import microsoftAzureAIFundamentals from "../public/assets/microsoftAzureAIFundamentals.png";
 import courseraGoogleAutomateTasksWithPython from "../public/assets/courseraGoogleAutomateTasksWithPython.jpeg";
 import iscCertifiedInCybersecurity from "../public/assets/iscCertifiedInCybersecurity.png";
+import iso27001LeadAuditor from "../public/assets/iso_27001_lead_auditor.jpg";
 import aflcPresentation2026 from "../public/assets/aflcPresentation2026.png";
 import technextTriviaFeature from "../public/assets/technextTriviaFeature.png";
 import acmURiseFeature from "../public/assets/acmUriseFeature.png";
@@ -429,6 +430,15 @@ export const certificationsData = [
   {
     year: "2026",
     certifications: [
+      {
+        date: "June, 2026",
+        link: "https://www.credly.com/badges/3ee6ebc8-0774-4fa1-b8ce-a4d599321376/public_url",
+        image: iso27001LeadAuditor,
+        organisation: "Mastermind Assurance",
+        title: "ISO/IEC 27001:2022 Auditor",
+        description:
+          "Demonstrate expertise in assessing information security management system (ISMS) scopes. This credential equates to mastery in leading audit teams and applying globally recognized audit principles, methodologies, and techniques",
+      },
       {
         date: "February, 2026",
         link: "https://www.credly.com/badges/d3cf56a5-1189-4d33-bc0f-3316c710234b/linked_in_profile",
