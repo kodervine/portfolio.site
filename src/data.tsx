@@ -71,6 +71,7 @@ import courseraGoogleAutomateTasksWithPython from "../public/assets/courseraGoog
 import iscCertifiedInCybersecurity from "../public/assets/iscCertifiedInCybersecurity.png";
 import iso27001LeadAuditor from "../public/assets/iso_27001_lead_auditor.jpg";
 import iso27701LeadAuditor from "../public/assets/iso_27701_lead_auditor.jpg";
+import iso42001LeadAuditor from "../public/assets/iso_42001_lead_auditor.jpg";
 import aflcPresentation2026 from "../public/assets/aflcPresentation2026.png";
 import technextTriviaFeature from "../public/assets/technextTriviaFeature.png";
 import acmURiseFeature from "../public/assets/acmUriseFeature.png";
@@ -432,11 +433,20 @@ export const certificationsData = [
     year: "2026",
     certifications: [
       {
+        date: "August, 2026",
+        link: "https://www.credly.com/badges/19225cc2-a2f9-4177-bc4a-64c6171de301/public_url",
+        image: iso42001LeadAuditor,
+        organisation: "Mastermind Assurance",
+        title: "ISO/IEC 42001:2023 Lead Auditor",
+        description:
+          "Completed rigorous professional training on the ISO/IEC 42001:2023 standard with Mastermind Assurance. Gained practical expertise in implementing and auditing Artificial Intelligence Management Systems (AIMS), including AI risk management, ethical governance, data integrity controls, and organizational compliance across AI system life cycles.",
+      },
+      {
         date: "June, 2026",
         link: "https://www.credly.com/badges/1c4a465c-f941-476c-9188-f74b63554563/public_url",
         image: iso27701LeadAuditor,
         organisation: "Mastermind Assurance",
-        title: "ISO/IEC 27701:2022 Lead Auditor",
+        title: "ISO/IEC 27701:2025 Lead Auditor",
         description:
           "Demonstrate advanced expertise in assessing privacy information management system (PIMS) scopes. This credential equates to mastery in applying privacy audit and audit management practices, including the identification and handling of PII, privacy risk assessment, and privacy by design",
       },
